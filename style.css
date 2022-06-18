@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    background-color: rgb(151, 151, 243);
+    padding: 34px;
+    margin: auto;
+}
+.container h3, p{
+    text-align: center;
+
+}
+input, textarea{
+    display: block;
+    padding: 0px;
+    box-sizing: border-box;
+    padding: 3px;
+    font-size: 12px;
+    width: 80%;
+    margin: 11px auto;
+
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    cursor: pointer;
+}
